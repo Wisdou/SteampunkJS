@@ -9,9 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "material-icons": "^1.12.0",
+    "style-loader": "^3.3.1",
     "sudoku-generator": "^0.0.0",
-    "vue": "^3.2.13",
-    "vuesax": "^3.12.2"
+    "vue": "^3.2.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -19,8 +20,10 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "naive-ui": "^2.33.5",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0"
   },
   "eslintConfig": {
     "root": true,
