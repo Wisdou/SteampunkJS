@@ -6,7 +6,6 @@
       :collapsed-width="0"
       :width="180"
       :collapsed="collapsed"
-      show-trigger
       @collapse="collapsed = true"
       @expand="collapsed = false"
     >
@@ -92,7 +91,8 @@ const menuOptions = [
 export default defineComponent({
   setup() {
     return {
-      menuOptions
+      menuOptions,
+      collapsed: ref(true)
     };
   }
 });
