@@ -3,7 +3,7 @@
     <n-layout-sider
       bordered
       collapse-mode="width"
-      :collapsed-width="64"
+      :collapsed-width="0"
       :width="180"
       :collapsed="collapsed"
       show-trigger
@@ -72,6 +72,19 @@ const menuOptions = [
       { default: () => "Tourus Puzzle" }
     ),
     key: "go-to-tourus",
+    icon: renderIcon(WorkIcon)
+  },
+  {
+    label: () => h(
+      RouterLink,
+      {
+        to: {
+          name: "Forum"
+        }
+      },
+      { default: () => "Forum" }
+    ),
+    key: "go-to-forum",
     icon: renderIcon(WorkIcon)
   }
 ];

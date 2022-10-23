@@ -2,6 +2,8 @@ import { createWebHistory, createRouter } from "vue-router";
 import MainPage from '../components/MainPage.vue';
 import TourusPuzzle from '../components/TourusPuzzle.vue';
 import Sudoku from '../components/Sudoku.vue';
+import Forum from '../components/Forum.vue';
+import Profile from '../components/Profile.vue';
 
 const routes = [{
         path: "/",
@@ -17,6 +19,16 @@ const routes = [{
         path: "/Tourus",
         name: "Tourus",
         component: TourusPuzzle,
+    },
+    {
+        path: "/Forum",
+        name: "Forum",
+        component: Forum,
+    },
+    {
+        path: "/Profile",
+        name: "Profile",
+        component: Profile,
     }
 ];
 
