@@ -4,6 +4,7 @@ import TourusPuzzle from '../components/TourusPuzzle.vue';
 import Sudoku from '../components/Sudoku.vue';
 import Forum from '../components/Forum.vue';
 import Profile from '../components/Profile.vue';
+import Leaderboard from '../components/Leaderboard.vue';
 
 const routes = [{
         path: "/",
@@ -29,6 +30,11 @@ const routes = [{
         path: "/Profile",
         name: "Profile",
         component: Profile,
+    },
+    {
+        path: "/Leaderboard",
+        name: "Leaderboard",
+        component: Leaderboard,
     }
 ];
 
