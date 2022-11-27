@@ -96,6 +96,20 @@ const menuOptions = [
     key: "go-to-forum",
     icon: renderIcon(WorkIcon),
   },
+  {
+    label: () =>
+      h(
+        RouterLink,
+        {
+          to: {
+            name: "Leaderboard",
+          },
+        },
+        { default: () => "Leaderboard" }
+      ),
+    key: "go-to-leaderboard",
+    icon: renderIcon(WorkIcon),
+  },
 ];
 
 export default defineComponent({
